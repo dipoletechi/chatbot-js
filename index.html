@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body onmousemove="fxnMove(event)" onmouseup="fxnDrop()" style="min-height:700px;">
+
+
+
+
+    <div id="divChatbot" class="Chatbot ChatbotLight" onmousedown="fxnDrag()" onmouseup="fxnDrop()">
+
+        <div id="divBody">
+
+            <table style=" border-bottom:solid 1px gray;">
+                <tr>
+                    <td style="text-align:left; padding-left:10px;"> <h2> <span onclick="fxnInfo()" style="border:solid 1px red; border-radius:50%; padding:1px 10px; text-decoration:none; height:30px; width:30px; cursor:pointer; ">i</span> Heading</h2> </td>
+                    <td style="text-align:right; padding-right:10px;"> <h2>+</h2></td>
+                </tr>
+            </table>
+
+            <div>
+                <table class="form">
+
+                    <tr>
+                        <td> Street</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtStreet" /> </td>
+                    </tr>
+                    <tr>
+                        <td> City</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtCity" /> </td>
+                    </tr>
+                    <tr>
+                        <td> State</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtState" /> </td>
+                    </tr>
+                    <tr>
+                        <td> Country</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtCountry" /> </td>
+                    </tr>
+                    <tr>
+                        <td> Zip Code</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtZip" /> </td>
+                    </tr>
+                    <tr>
+                        <td> IPv4</td>
+                        <td>:</td>
+                        <td> <input type="text" id="txtIP" /> </td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div id="divThemeBtn" onclick="fxnThemeBtn()" style="text-align: left; background-color:lightgray; padding:6px 3px; width: 60px; border-radius: 25px; cursor: pointer; ">
+                <span style="background-color:white; border-radius:50%; cursor:pointer; padding:3px;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+
+
+        </div>
+
+
+        <div id="divWatermark">
+            <wmark>Dharmandar Kumar</wmark>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

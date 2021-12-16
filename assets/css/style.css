@@ -1,0 +1,100 @@
+﻿
+.Chatbot {
+    position: absolute;
+    right:30px;
+    bottom:30px; 
+    border: solid 1px #a3a3a3cc;
+    height: 400px;
+    width: 350px;
+    box-shadow: 5px 5px 12px 1px;
+    margin: 10px;
+    cursor:move;  
+ 
+}
+
+.Chatbot div {
+    padding: 10px;
+}
+
+.Chatbot table {
+    width: 100%;
+}
+
+
+
+.ChatbotLight {
+    background-color:#ededed;
+    color: #2a2a2a;
+}
+
+    .ChatbotLight input {
+        color: #2a2a2a;
+    }
+
+    .ChatbotLight wmark {
+        color: black;
+        opacity: 0.2;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+
+
+.ChatbotDark {
+    background-color: #2a2a2a;
+    color: #ededed;
+}
+
+    .ChatbotDark input {
+        color: #ededed;
+    }
+
+    .ChatbotDark wmark {
+        color: white;
+        opacity: 0.2;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+
+
+.form {
+    width: 100%;
+    font-family: Calibri;
+    padding-right: 10px;
+}
+
+    .form td {
+        padding-bottom: 10px;
+    }
+
+    .form input {
+        border: none;
+        border-bottom: solid 1px lightgray;
+        padding: 5px;
+        background-color: transparent;
+        width: 100%;
+    }
+
+
+
+#divBody {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+#divWatermark {
+    position: absolute;
+    top: 122px;
+    z-index: 1;
+ 
+    text-align: center;
+  
+    width: 100%;
+    font-family: Calibri;
+    transform: rotate(-30deg);
+    font-size: 20px;
+}
+
